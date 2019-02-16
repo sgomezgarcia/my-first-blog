@@ -34,3 +34,6 @@ body {
 p{
     text-align: justify;
 }
+a:hover{
+    color: #3bcaff;
+}
