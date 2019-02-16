@@ -1,0 +1,59 @@
+FUNCIONES DJANGO:
+
+1. "Hola" + "Sara" = "Hola Sara"
+2. "Hola" * 3 = "HolaHolaHola"
+3. "Hola".upper() = "HOLA"
+4. len("Hola") = 4 (letras)
+4. len(str("1234")) = 4
+
+VARIABLES:
+
+1. name = "Sara" --> si ponemos name nos dará el nombre
+2. len(name)= 4
+3. a=1
+	b=2
+	a*b = 2
+
+FUNCIÓN PRINT:
+name="Sara"
+print(name) = Sara
+
+LISTA:
+lottery = [3, 1, 2]
+len(lottery) = 3
+ordernarla: lottery.sort()
+	print(lottery) = [1, 2, 3]
+desordenarla: lottery.reverse()
+	print(lottery) = [3, 2, 1]
+añadir algo: lottery.append(4)
+	print(lottery) = [3,2,1,4]
+mostrar solo un num: print(lottery[1]) -- marcas la posición del numero en la lista empezando por el 0
+	R: 2
+borrar algo: lottery.pop(0) = 3
+	print(lottery) 
+	R: [2, 1, 4]
+	
+DICCIONARIOS:
+
+>>> {}
+{}
+>>> participant = {'name: 'sara', 'country': 'Spain', favorite_numbers': [2, 8, 1]}
+>>> print(participant['name'])
+	R: sara
+mutables: puedes añadir nuevos pares llave/valor:
+>>> participant['favorite_language'] = 'Python'
+borrar: participant.pop('favorite_language')
+
+COMPARAR COSAS/BOOLEAN:True/False
+>>> 5>2
+true
+>>>5<2
+false
+
+== para compara si 2 cosas son iguales
+!= no son iguales
+and == ambas comparaciones deben ser True para resultado True
+or == solo una tiene que ser True para obtener True
+
+
+
