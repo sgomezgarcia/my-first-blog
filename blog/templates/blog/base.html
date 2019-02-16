@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% load static %}
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/post_list.css' %}">
+    <title>Django Girls blog</title>
+</head>
+<body>
+<header>
+    <div class="page-header">
+        <h1><a href="" class="title">Django Girls Blog</a></h1>
+    </div>
+</header>
+<div>
+    {% block content %}
+    {% endblock %}
+</div>
+</body>
+</html>

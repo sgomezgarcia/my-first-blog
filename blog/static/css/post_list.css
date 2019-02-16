@@ -1,0 +1,36 @@
+h1 {
+
+    font-family: Cinzel;
+    background-color: #ff5765;
+    text-align: center;
+    font-weight: bold;
+    height: 80px;
+    padding-top: 20px;
+}
+
+a {
+    color: #ff5765;
+}
+header{
+
+}
+
+.title{
+    color: white;
+}
+
+h2 {
+    font-family: Cinzel;
+    color: #ff6c45;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+body {
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+p{
+    text-align: justify;
+}
